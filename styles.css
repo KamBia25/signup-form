@@ -64,7 +64,7 @@ main {
 }
 .logoText {
     margin: 0;
-    font-size:72px;
+    font-size: calc(5vw + 12px);
     
 }
 
@@ -73,6 +73,7 @@ main {
     font-size: 24px;
     padding-left: 5%;
     padding-right: 30%;
+    padding-top: 10%;
 }
 
 .mid {
@@ -80,15 +81,32 @@ main {
     padding-left: 5%;
     padding-right: 30%;
     background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(55, 55, 55);
 }
 
 .bottom {
-    height: 35%;
+    
     padding-left: 5%;
     padding-right: 30%;
 }
 
+button {
+    background-color: #596D48;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
 
+.form_row {
+    display: flex;
+    flex-direction: row;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
 
 
 
