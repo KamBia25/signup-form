@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+
     <title>Sign up Form</title>
 </head>
 <body>
@@ -49,6 +51,7 @@
             <div class="form_row">
                 <label for="password"><span>PASSWORD</span>
                     <input type="password" name="password" id="password" required>
+                    <div id="div_error"></div>
                 </label>
                 <label for="confirm_password"><span>CONFIRM PASSWORD</span>
                     <input type="password" name="confirm_password" id="confirm_password" required>
@@ -57,7 +60,7 @@
             </form>
         </div>
         <div class="bottom">
-            <button type="submit">Create Account</button>
+            <button id="myButton" type="submit">Create Account</button>
             <p>Already have an account? <a class="log_in" href="index.html">Log in</a></p>
         </div>
     </div>
